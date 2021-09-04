@@ -28,7 +28,9 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Dive into English for an hour weekly on Sunday from 7:30pm to 9pm for\n'}
+            {
+              'Dive into English for an hour weekly on Sunday from 7:30pm to 9pm for\n'
+            }
             <span className="text-primary-500">Everyone</span>
           </>
         }
