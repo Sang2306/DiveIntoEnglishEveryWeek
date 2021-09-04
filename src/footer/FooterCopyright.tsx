@@ -2,11 +2,11 @@ import { AppConfig } from '../utils/AppConfig';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
-    © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered with{' '}
+    © Copyright {new Date().getFullYear()} {AppConfig.title}. Powered of{' '}
     <span role="img" aria-label="Love">
-      ♥
+      Motivation
     </span>{' '}
-    by <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
+    by English learner for English learner
     {/*
      * PLEASE READ THIS SECTION
      * We'll really appreciate if you could have a link to our website

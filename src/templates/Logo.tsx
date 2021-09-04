@@ -5,7 +5,7 @@ type ILogoProps = {
 };
 
 const Logo = (props: ILogoProps) => {
-  const size = props.xl ? '44' : '32';
+  const size = props.xl ? '24' : '24';
   const fontStyle = props.xl
     ? 'font-semibold text-3xl'
     : 'font-semibold text-xl';
@@ -18,16 +18,14 @@ const Logo = (props: ILogoProps) => {
         width={size}
         height={size}
         viewBox="0 0 24 24"
-        strokeWidth="1.5"
-        fill="none"
-        strokeLinecap="round"
-        strokeLinejoin="round"
+        // strokeWidth="1.5"
+        // fill="none"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        // strokeLinecap="round"
+        // strokeLinejoin="round"
       >
-        <path d="M0 0h24v24H0z" stroke="none" />
-        <rect x="3" y="12" width="6" height="8" rx="1" />
-        <rect x="9" y="8" width="6" height="12" rx="1" />
-        <rect x="15" y="4" width="6" height="16" rx="1" />
-        <path d="M4 20h14" />
+        <path d="M8.213 16.984c.97-1.028 2.308-1.664 3.787-1.664s2.817.636 3.787 1.664l-3.787 4.016-3.787-4.016zm-1.747-1.854c1.417-1.502 3.373-2.431 5.534-2.431s4.118.929 5.534 2.431l2.33-2.472c-2.012-2.134-4.793-3.454-7.864-3.454s-5.852 1.32-7.864 3.455l2.33 2.471zm-4.078-4.325c2.46-2.609 5.859-4.222 9.612-4.222s7.152 1.613 9.612 4.222l2.388-2.533c-3.071-3.257-7.313-5.272-12-5.272s-8.929 2.015-12 5.272l2.388 2.533z" stroke="none" />
       </svg>
 
       {AppConfig.site_name}
